@@ -1,0 +1,64 @@
+.btn-nav{
+    display: inline-block;
+    background: aqua;
+    text-decoration: none; /* para quitar el underline del link  */
+   /* padding-top
+   padding-rigth
+   padding-bottom
+   padding-left estos le dan formato al paddin del botton comienza a favor de las manecilas del reloj, pero si se pone solo padding con los 4 valores es igual y con menos codigo*/
+  padding: 5px; /* con un solo valor es para los 4 lados*/
+  color:white;
+  border: solid #666666 2px;
+  margin: 0 50px;
+  transition: all 1.4s;
+
+}
+p{
+    width: 50%;
+    margin:10%;
+    box-shadow: 0 0 10px blue ; /* para poner sobra a una caja de dialogo*/
+    text-align: center;
+    overflow: auto;
+    border-radius: 20px;
+    clear: both;
+
+}
+img{
+    width: 50%;
+    border:1px solid blue;
+    float: right;
+    shape-outside: polygon();
+}
+
+p em{
+    font-style: normal;
+}
+
+#nav-prin li{
+display: inline;
+padding: 16px;
+}
+ul{
+    list-style: none;
+}
+#nav-prin ul{
+text-align: center;
+padding: 0;
+}
+body{
+    text-align: justify;
+
+}
+h1{ 
+    font-family: 'Times New Roman', Times, serif;
+    color: aquamarine;
+}
+.btn-nav:hover{
+background: blue;
+ transform: scale(1.4); /*Pra hacer aninaciones sobre el boton, para que creasza o aumente o ruede al pasar el cursor por encima del*, para aplicar estar transformaciones tienen que estar en inline-block activado*/
+
+}
+
+
+
+
